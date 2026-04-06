@@ -1,0 +1,8 @@
+La URL se divide en '/' que separan el tipo de dato que necesitamos sobre la API (pokemon, tipo, berries, etc) y la especificidad que necesitamos dentro de ella (ID, nombre)
+ej: https://pokeapi.co/api/v2/pokemon/raichu
+
+1- Al poner el nombre del pokemon devuelve todos sus datos (nombre, tipo, ataques, habilidades, juegos donde aparece, etc)
+2- Al poner el ID del pokemon devuelve todos sus datos (nombre, tipo, ataques, habilidades, juegos donde aparece, etc)
+3- Existen dos valores: Offset y Limit. El offset representa desde que ID se va a tomar la lista, y el limit es cuantos valores luego del inicio (offset) van a ser tomados y mostrados. El endpoint devuelve los nombres de los pokemones y sus respectivas URLs con sus IDs.
+4- Al poner la palabra clave "Type" y el nombre/ID del tipo, podemos obtener la información del respectivo tipo (debilidades, fortalezas, resistencias, etc)
+5- Error intencional, no devuelve nada. Decidimos poner un tipo inexistente
