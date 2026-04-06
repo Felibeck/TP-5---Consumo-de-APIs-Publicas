@@ -37,8 +37,8 @@ function mostrarPokemon(datos) {
     <h2>${datos.nombre}</h2>
     <img src="${datos.imagen}" alt="${datos.nombre}">
     <p>Tipos: ${datos.tipos.join(", ")}</p>
-    <p>Peso: ${datos.peso}</p>
-    <p>Altura: ${datos.altura}</p>
+    <p>Peso: ${datos.peso} kg</p>
+    <p>Altura: ${datos.altura} m</p>
   `;
 }
 
