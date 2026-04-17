@@ -1,0 +1,16 @@
+{
+  "name": "pokeapp",
+  "version": "1.0.0",
+  "description": "Buscador de Pokémon usando PokeAPI",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "dev": "live-server --port=3000"
+  },
+  "keywords": ["pokemon", "pokeapi", "javascript"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
